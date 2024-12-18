@@ -23,3 +23,7 @@ class Dog extends Animal {
 class Bird extends Animal {
   Bird({required super.hp});
 }
+
+class Fish extends Animal {
+  Fish({required super.hp});
+}
