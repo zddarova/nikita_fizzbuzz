@@ -2,10 +2,6 @@ void main() {
   final bird = Bird(hp: 100);
 }
 
-abstract interface class Flyable {
-  void fly();
-}
-
 abstract class Animal {
   final int hp;
 
@@ -24,11 +20,6 @@ class Dog extends Animal {
   Dog({required super.hp});
 }
 
-class Bird extends Animal implements Flyable {
+class Bird extends Animal {
   Bird({required super.hp});
-
-  @override
-  void fly() {
-    print('Bird is flying');
-  }
 }
