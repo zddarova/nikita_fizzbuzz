@@ -1,5 +1,7 @@
 
 
+
+
 void main() 
 {
   for(int i = 0; i <= 100;i++)
@@ -15,6 +17,10 @@ void main()
     else if(i % 5 == 0)
     {
       print('Buzz');
+    }
+    else 
+    {
+      print(i);
     }
   }
    
