@@ -6,6 +6,6 @@ void main() {
             ? 'Buzz'
             : (i % 3 == 0)
                 ? 'Fizz'
-                : i);
+                : i); 
   }
 }
