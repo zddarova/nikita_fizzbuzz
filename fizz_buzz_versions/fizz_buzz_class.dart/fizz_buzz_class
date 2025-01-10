@@ -1,0 +1,26 @@
+class FizzBuzz{
+    final int value; // кол-во данных для обработки 
+
+    FizzBuzz(value); // передаем данные при создании экземпляра
+
+    void go(){
+        for(int i = 1;i <= value;i++)
+        {
+            if(i % 3 == 0 && i % 5 == 0)
+            print('FizzBuzz');
+
+            else if(i % 3 == 0)
+            print('Fizz');
+            else if(i % 5 ==0)
+            print('Buzz')
+            else{
+                print(i)
+            }
+
+        }
+    }
+}
+void main(){
+    FizzBuzz fizzbuzz = FizzBuzz(100);
+    fizzbuzz.go();
+}
